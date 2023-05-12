@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+:root{
+    --green:#80ED99;
+    --dark--green:#588157;
+    --white:#fff;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px  rgba(1 1 1  / 15%);
+    padding: 20px ;
+    position: fixed;
+    z-index: 999;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 10px;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.home{
+    padding-top: 10rem;
+    background: var(--dark--green);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    height: 100vh;
+}
+
+.home p {
+    font-size: 2.5rem;
+    width: 35rem;
+    text-align: center;
+}
+
+.home button{
+    position: absolute;
+    bottom: 10rem;
+    width: 15rem;
+    padding: 10px;
+    background: var(--green);
+    border: none;
+    color: var(--white);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.services{
+    padding: 20px;
+
+}
+
+.services .card-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services .card {
+    margin: 40px;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    padding: 20px;
+    text-align: center;
+    width: 21em;
+    color: var(--green);
+    transition: ease 0.7s;
+}
+
+.services .card:hover{
+    transform: scale(1.2);
+}
+
+.services .title-card{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.services .icon{
+    margin: 10px;
+    color: #000;
+    font-size: 2.5rem;
+}
+
+.services .pargraf{
+    margin: 10px; 
+}
+
+.services .button-card button{
+   width: 150px;
+   color: var(--white);
+   margin: 10px;
+   cursor: pointer;
+   background: #222;
+   padding: 5px;
+   border-radius: 10px;
+   border: none;
+}
