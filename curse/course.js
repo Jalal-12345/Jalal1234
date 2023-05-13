@@ -62,7 +62,7 @@ let burger = document.querySelector(".burger")
 
 close1.addEventListener("click", function(){
     
-    nav.style.transform = "translateY(-10000%)"
+    nav.style.transform = "translateY(-1100%)";
 })
 
 
